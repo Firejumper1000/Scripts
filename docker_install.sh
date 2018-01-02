@@ -42,8 +42,7 @@ sudo apt-get update -y;
 
 # Install the latest version of Docker CE
 echo "${red}Running: ${cyan} Docker-CE ${green} Install ${reset}"
-sudo apt-get install docker-ce y;
-sudo apt install docker.io y;
+sudo apt-get install docker-ce -y;
 
 # Install docker-compose
 echo "${red}Running: ${cyan} Docker-Compose ${green} Install ${reset}"
