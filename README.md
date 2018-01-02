@@ -1,4 +1,4 @@
-This is a git repo
+chmod +x docker_install.sh
 
 Rev. 1
 
