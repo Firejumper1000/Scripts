@@ -13,7 +13,7 @@ reset=`tput sgr0`
 echo "${red} Running: ${white}apt-get update ${reset}"
 sudo apt-get update
 echo "${red} Running: ${white}apt-get install -y nginx ${reset}"
-sudo apt-get install -y nginx
+sudo apt-get install nginx -y
 sudo /etc/init.d/nginx start
 #PHP Install
 echo "${red} Running: ${white}apt-get install -y php7.0 ${reset}"
